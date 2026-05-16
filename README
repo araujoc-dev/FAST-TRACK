@@ -1,0 +1,49 @@
+README.md
+@@ -0,0 +1,47 @@
+Seu arquivo Markdown está pronto.
+
+[file-tag: code-generated-file-0-1778971552612770561]
+
+Abaixo você pode visualizar a formatação completa do texto gerado para o seu arquivo `README.md`:
+
+```markdown
+# Sistema FastTrack 🚀
+
+O **FastTrack** é um sistema de gerenciamento de chamados em linha de comando desenvolvido em Python. Ele utiliza o conceito de estrutura de dados **FIFO (First In, First Out)**, simulando uma fila de atendimento real onde o primeiro chamado registrado é o primeiro a ser atendido.
+
+Este projeto foi construído de forma didática, integrando conceitos fundamentais de programação distribuídos em unidades de aprendizado.
+
+---
+
+## 📋 Funcionalidades
+
+- **Registrar Novo Chamado:** Cadastra o nome do cliente e define a prioridade (Normal ou Urgente). O sistema gera um ID aleatório e captura o horário exato do registro.
+- **Atender Próximo:** Remove e exibe o primeiro chamado da fila, respeitando a ordem de chegada (lógica de fila).
+- **Listar Fila:** Exibe um relatório em tempo real com todos os clientes aguardando atendimento.
+
+---
+
+## 🛠️ Pré-requisitos
+
+Para executar o programa, você só precisa ter o **Python 3** instalado em sua máquina. Nenhuma biblioteca externa é necessária, pois o sistema utiliza apenas módulos nativos (`datetime` e `random`).
+
+> **Nota:** Certifique-se de que o comando `python3` ou `python` está configurado nas suas variáveis de ambiente.
+
+---
+
+## 🚀 Como Executar o Programa
+
+Siga os passos abaixo para rodar o sistema no seu terminal:
+
+### 1. Salvar o código
+Certifique-se de salvar o código fornecido em um arquivo chamado `main.py` (ou outro nome de sua preferência com a extensão `.py`) em uma pasta de fácil acesso no seu computador.
+
+### 2. Abrir o Terminal ou Prompt de Comando
+Abra o terminal do seu sistema operacional (Prompt de Comando/PowerShell no Windows ou Terminal no Linux/macOS) e navegue até a pasta onde o arquivo foi salvo. Você pode usar o comando `cd` para isso:
+
+```bash
+cd /caminho/para/a/pasta/do/projeto
+
+This is your README. READMEs are where you can communicate what your project is and how to use it.
+
+Write your name on line 6, save it, and then head back to GitHub Desktop.
